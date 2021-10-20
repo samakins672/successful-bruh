@@ -6,7 +6,7 @@
 <body>
   YOU ARE WELCOME
   <?php
-    echo('you are welcome here');
+    echo('you are welcome here!');
   ?>
 </body>
 </html>

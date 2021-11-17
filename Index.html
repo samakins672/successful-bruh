@@ -2,39 +2,62 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Successful Bruhs </title>
-<!--I described the href attribute 
-to locae the index.css 
-in a folder...-->
-  	<link rel="stylesheet" href="CSS/index.css" type="text/css"/
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Successful Bruhs| Home </title>
+	<link rel="stylesheet" href="./CSS/index.css" type="text/css" />
 </head>
 
 <body>
 	<header>
-		<div>
-			<p>Successful Bruh</p>
-			<div id="Navigation">
-				<nav>
-					<a href="#"> <img src="home.png" alt="Home" /> </a>
-					<a href="notification.html"> <img src="Alert.phg" alt="Navigation" /> </a>
-					<a href="chat.html"> <img src="Chat.png" alt="Chat" /> </a>
-					<a href="About.html"> <img src="about.png" alt="About"> </a>
-					<a href="group.html"> <img src ="group.png" alt="Group"> </a>
-				</nav>
+		<nav>
+			<div class="nav-left">
+				<img src="Images/wlogo.jpg" width="30px"/>
+				<ul>
+					<a href="Home.html"> <img src="Images/Home.jpg" alt="About"> </a>
+					<a href="inbox.html"> <img src="Images/Inbox.jpg" alt="Navigation" /> </a>
+					<a href="chat.html"> <img src="Images/Chat.jpg" alt="Chat" /> </a>
+				</ul>
+			</div>
+			
+			<div class="nav-right">
+				<div class="search-box">
+					<img src="Images/alert.jpg" />
+					<input type="text" placeholder="Search"/>
+				</div>
+				<div class="user-icon online">
+					<img src="Images/DP.jpg"/>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<section class="container">
+<!------- Left Side Bar ------>
+		<div class="left-sidebar">
+			<div class="imp-links">
+				<a href="#"> <img src="Images/Contact.jpg" /> Messages</a>
+				<a href="#"> <img src="Images/Contact.jpg" /> Watch</a>
+				<a href="#"> <img src="Images/Contact.jpg" /> Group</a>
+				<a href="#"> <img src="Images/Contact.jpg" /> Take Me</a>
+				<a href="#"> See More</a>
 			</div>
 		</div>
-	</header>
-  <section>
-    <div class="Container">
-      <marquee id ="Welcome"> Successful Bruhs</marquee>
-    	THIS IS MY HOME PAGE
-    </div>
-  </section>
- 
-  <footer>
-  	© Successful Bruhs, 2021
-  </footer>
+<!------- Main Content ------>
+		<div class="main-content">
+			
+		</div>
+<!------- Right Side Bar ------>
+		<div class="right-sidebar">
+			
+		</div>
+	</section>
+	<script>
+		//all JavaScript code goes here
+	</script>
+	<footer>
+		© Successful Bruhs, 2021
+	</footer>
 </body>
+
 </html>
